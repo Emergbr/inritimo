@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'andarilho';
+    src: url(./assets/fontes/andarilho-font.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "andarilho";
+}
+.body{
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
+}
+
+.navegacao{
+ height: 10rem;
+ width: 100%;
+ border: 1px solid black;
+ display: grid;
+ grid-template-columns:  50% auto;
+ background-color: black;
+ padding-left: 4rem ;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(1, 209, 1);
+    font-size: 1.5rem;
+    font-style: bold;
+}
+
+#nav{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    align-items: center;
+    padding-left: 10rem;
+    
+}
+
+#logo{
+    max-width: 150px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding-left: 20rem;
+}
+
+.video{
+    height: 50rem;
+    background-image: url(./assets/foto-saturada.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+#video{
+    margin: 0 auto;
+}
